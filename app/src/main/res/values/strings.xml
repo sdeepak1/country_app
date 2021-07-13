@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Asia Country Details</string>
+    <string name="Country">Country Details</string>
+    <string name="cname">country name</string>
+    <string name="Countr1">Asia Country</string>
+    <string name="capital">Capital</string>
+    <string name="Region">Region</string>
+    <string name="SubRegion">SubRegion</string>
+    <string name="Population">Population</string>
+    <string name="Border">Border</string>
+    <string name="Languages">Languages</string>
+    <string name="value">0</string>
+
+</resources>
+

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:layout_marginEnd="5dp"
+    android:background="@drawable/setbg"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/setImg"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:padding="10dp"
+        android:src="@drawable/asia"
+        app:civ_border_color="@color/colorPrimaryDark"
+        app:civ_border_width="2dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:src="@drawable/asia" />
+
+    <TextView
+        android:id="@+id/setname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_horizontal|fill_horizontal"
+        android:gravity="center|center_horizontal"
+        android:padding="10dp"
+        android:text="@string/app_name"
+        android:textColor="#DF4A1A"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button2"
+        app:layout_constraintStart_toEndOf="@+id/setImg"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </TextView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/setarrowww"
+        android:backgroundTint="#393636"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
